@@ -1,0 +1,30 @@
+# The Modern Full-Stack Developer's Guide: A 12-Factor Approach
+This is the repository for the text of the updated version of the "The Modern Full-Stack Developer's Guide: A 12-Factor Approach
+" manifesto, which will ultimately replace the one published on medium. The text is located in the articles directory. As noted in the governance document, changes will occur in the next branch until the maintainers agree that the current round of updates is complete.
+## Vision
+The details of our vision for the update can be found in VISION.md
+## How to Participate
+Information on participating is in CONTRIBUTING.md
+
+## Table of Contents (Work in Progress)
+
+| Article name                                                                                                                                           | Owner         | Created | Approved | Published |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|---------|----------|-----------|
+| [Intro](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/00-Intro.md)                                                                | @mavishay     | 🟢      | 🟡       | ⚪️        |
+|                                                                                                                                                        |               |         |          |           |
+| [Factor 1: UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/01-Factor-1.md)                     |               | 🟢      | 🟡       | ⚪️        |
+| [Factor 2: Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/02-Factor-2.md)                                     |               | 🟢      | 🟡       | ⚪️        |                                              |       |         |          |           |
+| [Factor 3: Design Systems](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/03-Factor-3.md)                                          |               | 🟢      | 🟡       | ⚪️        |                                              |       |         |          |           |
+| [Factor 4: Routing & Navigation](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/04-Factor-4.md)                                    |               | 🟢      | 🟡       | ⚪️        |                                              |       |         |          |           |
+| [Factor 5: State Management ](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/05-Factor-5.md)                                       |               | 🟢      | 🟡       | ⚪️        |                                              |       |         |          |           |
+| [Factor 6: Authentication & Authorization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/06-Factor-6.md)                          |               | 🟢      | 🟡       | ⚪️        |                                              |       |         |          |           |
+| [Factor 7: Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/07-Factor-7.md)                                    |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Factor 8: Form Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/08-Factor-8.md)                                         |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Factor 9: Internationalization & Localization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/09-Factor-9.md)                     |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Factor 10: Backend-for-Frontend (BFF)](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/10-Factor-10.md)                            | @avner.hattab | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Factor 11: API Communication Patterns](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/11-Factor-11.md)                            |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Factor 12: Accessibility, SEO & Performance](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md)                      | @maorz2       | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+|                                                                                                                                                        |               |         |          |           |                                              |       |         |          |           |
+| [Supplemental Factor 1: Testing strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/13-Supplemental-factor-1.md)            |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Supplemental Factor 2: AI-enhanced development tools](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/14-Supplemental-factor-2.md) | @domainio1    | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
+| [Supplemental Factor 3: Micro-frontend architectures](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/15-Supplemental-factor-3.md)  |               | 🟡      | ⚪️       | ⚪️        |                                              |       |         |          |           |
