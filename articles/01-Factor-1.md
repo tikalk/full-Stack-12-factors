@@ -237,4 +237,4 @@ In our next article, we'll explore Factor 2: Repository Strategy, examining how 
 
 ---
 
-_This article is part of Tikal's Modern [Full-Stack Developer's Guide: A 12-Factor Approach series](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/intro.md), synthesizing the expertise of more than 50 full-stack experts with decades of industry experience._
+_This article is part of Tikal's Modern [Full-Stack Developer's Guide: A 12-Factor Approach series](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/00-Intro.md), synthesizing the expertise of more than 50 full-stack experts with decades of industry experience._
