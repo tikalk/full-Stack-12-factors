@@ -233,7 +233,7 @@ Remember that this choice interacts closely with other factors in our methodolog
 - **[Factor 3: Design Systems](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/03-Factor-3.md)** - Component libraries provide the building blocks for design systems
 - **[Factor 7: Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/07-Factor-7.md)** - Framework capabilities shape SSR, CSR and other rendering approaches
 
-In our next article, we'll explore Factor 2: Repository Strategy, examining how to organize your codebase for optimal team collaboration and deployment flexibility.
+In our next article, we'll explore [Factor 2: Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/02-Factor-2.md), examining how to organize your codebase for optimal team collaboration and deployment flexibility.
 
 ---
 
