@@ -1,5 +1,5 @@
 # The Modern Full-Stack Developer's Guide: A 12-Factor Approach
-# !!!!!!!! ------ IMAGE HERE ----------
+![cover](https://github.com/tikalk/full-Stack-12-factors/blob/main/images/intro.png?raw=true)
 ## Introduction
 In today's rapidly evolving tech landscape, full-stack applications have become the backbone of digital experiences. Whether you're building a consumer-facing web app, an enterprise SaaS solution, or a mobile-first platform, the decisions you make during architecture and implementation have far-reaching consequences. The Modern Full-Stack Developer's Guide introduces a comprehensive 12-factor methodology for building robust, scalable, and maintainable full-stack applications that:
 
