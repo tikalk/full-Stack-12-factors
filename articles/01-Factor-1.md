@@ -229,12 +229,12 @@ In our experience at Tikal, these are the most common mistakes when selecting UI
 Selecting the right UI component libraries and frameworks establishes the foundation for your full-stack application's success. By systematically evaluating options against your specific requirements, team composition, and long-term goals, you can make a decision that balances immediate productivity with sustainable growth.  
 
 Remember that this choice interacts closely with other factors in our methodology, particularly:
-- **[Factor 2: Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/02-Factor-2.md)** - Framework choice influences monorepo vs multirepo decisions
-- **[Factor 3: Design Systems](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/03-Factor-3.md)** - Component libraries provide the building blocks for design systems
-- **[Factor 7: Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/07-Factor-7.md)** - Framework capabilities shape SSR, CSR and other rendering approaches
+- **[Factor 2: Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/02-Factor-2.md)** - Framework choice influences monorepo vs multirepo decisions
+- **[Factor 3: Design Systems](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/03-Factor-3.md)** - Component libraries provide the building blocks for design systems
+- **[Factor 7: Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/07-Factor-7.md)** - Framework capabilities shape SSR, CSR and other rendering approaches
 
 In our next article, we'll explore Factor 2: Repository Strategy, examining how to organize your codebase for optimal team collaboration and deployment flexibility.
 
 ---
 
-_This article is part of Tikal's Modern [Full-Stack Developer's Guide: A 12-Factor Approach series](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/intro.md), synthesizing the expertise of more than 50 full-stack experts with decades of industry experience._
+_This article is part of Tikal's Modern [Full-Stack Developer's Guide: A 12-Factor Approach series](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/intro.md), synthesizing the expertise of more than 50 full-stack experts with decades of industry experience._

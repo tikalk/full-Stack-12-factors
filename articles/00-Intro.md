@@ -34,24 +34,24 @@ This guide aims to address these challenges by offering a structured approach to
 
 ## The 12Factors
 Our 12-factor approach for modern full-stack development encompasses:
-1. **[UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/01-Factor-1.md)** - Selecting and implementing the right frontend technologies (React, Angular, Vue, etc.)
-2. **[Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/02-Factor-2.md)** - Evaluating monorepo vs. multirepo approaches for code organization
-3. **[Design Systems](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/03-Factor-3.md)** - Creating consistent user experiences through shared components and patterns
-4. **[Routing & Navigation](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/04-Factor-4.md)** - Implementing client-side, server-side, or hybrid routing strategies
-5. **[State Management](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/05-Factor-5.md)** - Handling application state across components and services
-6. **[Authentication & Authorization](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/06-Factor-6.md)** - Securing applications with modern identity approaches
-7. **[Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/07-Factor-7.md)** - Choosing between SSR, CSR, SSG, and hybrid rendering techniques
-8. **[Form Management](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/08-Factor-8.md)** - Implementing validation, submission, and user feedback patterns
-9. **[Internationalization & Localization](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/09-Factor-9.md)** - Building for global audiences from day one
-10. **[Backend-for-Frontend (BFF)](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/10-Factor-10.md)** - Evaluating when and how to implement this architectural pattern
-11. **[API Communication Patterns](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/11-Factor-11.md)** - Selecting appropriate protocols (REST, GraphQL, gRPC, WebSockets, etc.)
-12. **[Accessibility, SEO & Performance](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/12-Factor-12.md)** - Ensuring applications are usable, discoverable, and fast
+1. **[UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/01-Factor-1.md)** - Selecting and implementing the right frontend technologies (React, Angular, Vue, etc.)
+2. **[Repository Strategy](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/02-Factor-2.md)** - Evaluating monorepo vs. multirepo approaches for code organization
+3. **[Design Systems](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/03-Factor-3.md)** - Creating consistent user experiences through shared components and patterns
+4. **[Routing & Navigation](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/04-Factor-4.md)** - Implementing client-side, server-side, or hybrid routing strategies
+5. **[State Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/05-Factor-5.md)** - Handling application state across components and services
+6. **[Authentication & Authorization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/06-Factor-6.md)** - Securing applications with modern identity approaches
+7. **[Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/07-Factor-7.md)** - Choosing between SSR, CSR, SSG, and hybrid rendering techniques
+8. **[Form Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/08-Factor-8.md)** - Implementing validation, submission, and user feedback patterns
+9. **[Internationalization & Localization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/09-Factor-9.md)** - Building for global audiences from day one
+10. **[Backend-for-Frontend (BFF)](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/10-Factor-10.md)** - Evaluating when and how to implement this architectural pattern
+11. **[API Communication Patterns](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/11-Factor-11.md)** - Selecting appropriate protocols (REST, GraphQL, gRPC, WebSockets, etc.)
+12. **[Accessibility, SEO & Performance](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md)** - Ensuring applications are usable, discoverable, and fast
 
 We'll also explore supplemental factors including:
-1. **[Testing strategies](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/13-Supplemental-factor-1.md)**
-2. **[AI-enhanced development tools](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/14-Supplemental-factor-2.md)**
-3. **[Micro-frontend architectures](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/15-Supplemental-factor-3.md)**
+1. **[Testing strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/13-Supplemental-factor-1.md)**
+2. **[AI-enhanced development tools](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/14-Supplemental-factor-2.md)**
+3. **[Micro-frontend architectures](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/15-Supplemental-factor-3.md)**
 
 In the coming articles, we'll dive deep into each factor, exploring the trade-offs, implementation strategies, and real-world examples. By the end of this series, you'll have a comprehensive framework for making informed decisions about your full-stack application architecture.
   
-Stay tuned for our first installment focusing on [Factor 1: UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/raw/refs/heads/main/articles/01-Factor-1.md) - where we'll explore how to select and implement the right frontend technologies for your project needs.
+Stay tuned for our first installment focusing on [Factor 1: UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/01-Factor-1.md) - where we'll explore how to select and implement the right frontend technologies for your project needs.
