@@ -862,7 +862,6 @@ Remember that rendering strategy decisions interact closely with other factors i
 - [Factor 12: Accessibility, SEO & Performance](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md) - Rendering strategies directly impact these quality attributes
 
 In our next article, we'll explore [Factor 8: Form Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/08-Factor-8.md), examining how to handle user input collection and validation in modern full-stack applications.
-````
 
 ---
 
