@@ -352,15 +352,7 @@ This approach works exceptionally well with [well-architected design systems](ht
 - **Low-end devices:** Reduce hydration and interactivity
 - **Benefits:** Automatic performance adaptation to user conditions
 
-  // Real-time data - Streaming for immediate updates
-  stockStatus: { strategy: 'streaming', priority: 'high' },
-  pricing: { strategy: 'streaming', priority: 'high' },
-
-  // Heavy features - Lazy loaded when needed
-  3dViewer: { strategy: 'lazy-CSR', trigger: 'user-intent' },
-  sizeGuide: { strategy: 'lazy-CSR', trigger: 'user-click' }
-  };
-
+```javascript
 // Implementation with selective hydration
 function ProductPage({ productId }) {
 return (
@@ -387,11 +379,9 @@ return (
         <Product3DViewer productId={productId} />
       </LazyLoad>
     </>
-
 );
-}
-
-````
+} 
+```
 
 ### 3. Network-Adaptive Orchestration Pattern
 
