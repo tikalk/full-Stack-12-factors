@@ -1,4 +1,5 @@
 # Factor 12: Accessibility, SEO & Performance
+![cover](https://github.com/tikalk/full-Stack-12-factors/blob/main/images/factor12.png?raw=true)
 
 ## Building inclusive, discoverable, and fast web applications
 
