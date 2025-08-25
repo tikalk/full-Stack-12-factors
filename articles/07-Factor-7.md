@@ -95,12 +95,14 @@ Let's systematically compare rendering strategies across key considerations:
 
 ### Performance and Technical Characteristics
 
-| Strategy | Initial Load | SEO       | Interactivity | Bundle Size  | Time to Interactive |
-| -------- | ------------ | --------- | ------------- | ------------ | ------------------- |
-| **SSG**  | Excellent    | Excellent | Good          | Small        | Fast                |
-| **SSR**  | Good         | Excellent | Good          | Medium       | Medium              |
-| **CSR**  | Poor         | Poor      | Excellent     | Large        | Slow                |
-| **ISR**  | Excellent    | Excellent | Good          | Small-Medium | Fast                |
+| Strategy | First Contentful Paint (FCP) | SEO       | Interaction to Next Paint (INP) | Bundle Size  | Total Blocking Time (TBT) |
+| -------- | ---------------------------- | --------- | ------------------------------- | ------------ | ------------------------- |
+| **SSG**  | Excellent                    | Excellent | Excellent                       | Small        | Minimal                   |
+| **SSR**  | Good                         | Excellent | Good\*                          | Medium       | Low-Medium                |
+| **CSR**  | Poor                         | Poor      | Poor initially                  | Large        | High                      |
+| **ISR**  | Excellent                    | Excellent | Excellent                       | Small-Medium | Minimal                   |
+
+\*SSR with rehydration can have significant INP delays until client-side JavaScript loads
 
 ### Infrastructure and Operational Requirements
 
@@ -192,6 +194,12 @@ export async function getStaticProps() {
 - Set up preview environments for content changes
 - Use progressive enhancement for interactivity
 
+**Static Rendering vs Prerendering Distinction:**
+
+Important: True static rendering differs from prerendering. As [web.dev explains](https://web.dev/articles/rendering-on-the-web): _"statically rendered pages are interactive without needing to execute much client-side JavaScript, whereas prerendering improves the FCP of a Single Page Application that must be booted on the client to make pages truly interactive."_
+
+**Test**: Disable JavaScript in your browser. Static sites remain fully functional with navigation and forms working. Prerendered SPAs become largely inert, requiring JavaScript to boot up for interactivity. Choose true static generation when possible for better performance and reliability.
+
 **Progressive Enhancement Example:**
 
 ```html
@@ -220,6 +228,12 @@ export async function getStaticProps() {
 - Implement proper caching strategies to reduce server load
 - Handle hydration mismatches between server and client
 - Monitor server performance and scaling needs
+
+**⚠️ Critical Rehydration Performance Warning:**
+
+SSR with rehydration can have significant negative impact on user experience. As [web.dev notes](https://web.dev/articles/rendering-on-the-web): _"Server-side rendered pages can appear to be loaded and interactive, but can't actually respond to input until the client-side scripts for components are executed and event handlers have been attached. On mobile, this can take minutes."_ This creates a frustrating experience where pages look ready but don't work.
+
+Consider streaming SSR, progressive rehydration, or partial rehydration to mitigate these issues. For many use cases, static generation or carefully designed CSR may provide better user experience than traditional SSR+rehydration.
 
 **Caching Strategy Example:**
 
