@@ -8,6 +8,8 @@ Rendering strategy is a fundamental architectural decision that determines how y
 
 Your rendering strategy must align with your [UI framework selection](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/01-Factor-1.md) and significantly influences your application's [accessibility, SEO, and performance characteristics](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md).
 
+> Note: Modern frameworks often make opinionated decisions about default rendering strategies and how they can be overridden. For example, [Next.js](https://nextjs.org/) defaults to server-side rendering with its App Router, emphasizing SEO and initial load performance while providing options for static generation and client-side rendering. In contrast, [TanStack Start](https://tanstack.com/start/latest) takes a client-first approach, optimizing for rich client-side interactivity while offering server functions for data fetching. Understanding these framework defaults is crucial - they significantly influence your application's behavior unless explicitly configured otherwise. However, don't let framework defaults dictate your strategy; instead, choose frameworks that align with your rendering requirements. See [Factor 1: UI Component Libraries & Frameworks](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/01-Factor-1.md) for more on framework selection and the [Tooling Considerations](#tooling-considerations) section for more on framework capabilities.
+
 ## The Strategic Importance of Rendering Strategy
 
 Your rendering strategy is more than a technical implementation detail - it's an architectural decision that shapes:
@@ -389,6 +391,20 @@ Use this framework to guide your rendering strategy choice:
 - You can clearly separate concerns between strategies
 - Your team can manage the additional complexity
 - The performance benefits justify the implementation cost
+
+### Tooling Considerations
+
+Modern frameworks offer different approaches to rendering. Here's a comparison of popular frameworks and their rendering capabilities:
+
+| Framework                                           | Default Strategy | Core Philosophy    | Supported Strategies           | Primary Use Case                                   |
+| --------------------------------------------------- | ---------------- | ------------------ | ------------------------------ | -------------------------------------------------- |
+| [Next.js](https://nextjs.org/)                      | SSR (App Router) | Server-first       | SSR, SSG, CSR, ISR             | Full-stack applications with mixed rendering needs |
+| [Astro](https://astro.build/)                       | Static           | Zero JS by default | Static, SSR, Partial Hydration | Content-focused sites with selective interactivity |
+| [TanStack Start](https://tanstack.com/start/latest) | CSR              | Client-first       | CSR with server functions      | Rich interactive applications                      |
+| [React Router](https://reactrouter.com/)            | CSR              | Client-first       | CSR with opt-in SSR/SSG        | Single-page applications with flexible routing     |
+| [Gatsby](https://www.gatsbyjs.com/)                 | Static (SSG)     | Build-time         | SSG, DSG                       | Large static sites with rich data requirements     |
+
+> **Note:** Framework selection should be driven by your rendering requirements, not the other way around. Each framework excels in different scenarios, and choosing the wrong one can lead to unnecessary complexity or performance issues.
 
 ## Conclusion
 
