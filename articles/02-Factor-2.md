@@ -256,7 +256,7 @@ Based on our experience at Tikal, here are effective implementation strategies f
 5. Manage Discovery and Navigation
    - Create developer portals for repository discovery
    - Document service relationships and dependencies
-   - I0mplement cross-repository search capabilities
+   - Implement cross-repository search capabilities
 
 ## Common Pitfalls to Avoid
 Through Tikal's extensive experience with repository strategies, we've identified these common pitfalls:
