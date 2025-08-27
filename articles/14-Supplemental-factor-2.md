@@ -735,36 +735,6 @@ class SamplingLogger {
 - Standardize trace context propagation
 - Create service maps and dependency graphs
 
-## Case Study: Tikal's E-Commerce Platform Observability
-
-A Tikal client operating a high-traffic e-commerce platform implemented comprehensive observability with these results:
-
-**Initial Challenges:**
-- 15-minute average time to detect issues
-- 45-minute mean time to resolution
-- Limited visibility into user experience issues
-- Reactive debugging based on customer complaints
-
-**Implementation:**
-- **Frontend Monitoring:** Sentry for error tracking, DataDog RUM for performance
-- **Backend Observability:** Structured logging with correlation IDs, distributed tracing with Jaeger
-- **Business Metrics:** Custom conversion tracking and user journey analytics
-- **Alerting:** Tiered alert system with PagerDuty integration
-
-**Results after 6 months:**
-- Reduced time to detection from 15 minutes to 2 minutes
-- Decreased mean time to resolution from 45 minutes to 12 minutes
-- Identified and fixed 3 major performance bottlenecks before customer impact
-- Improved customer satisfaction scores by 23%
-- Reduced infrastructure costs by 18% through performance optimization insights
-
-**Key Implementation Details:**
-1. **Correlation ID Strategy:** Every request assigned UUID propagated across all services
-2. **User Journey Tracking:** Frontend events correlated with backend transactions
-3. **Performance Budgets:** Automated alerts when Core Web Vitals degraded
-4. **Business Impact Correlation:** Error rates correlated with revenue metrics
-5. **Proactive Scaling:** Predictive alerts based on traffic patterns
-
 ## Conclusion
 
 Comprehensive observability and error management form the foundation of reliable, maintainable full-stack applications. By expanding beyond the original 12-factor app's focus on logs to encompass modern monitoring, tracing, and alerting practices, teams can:
