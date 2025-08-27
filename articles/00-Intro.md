@@ -49,18 +49,17 @@ Our 12-factor approach for modern full-stack development encompasses:
 6. **[Authentication & Authorization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/06-Factor-6.md)** - Securing applications with modern identity approaches
 7. **[Rendering Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/07-Factor-7.md)** - Choosing between SSR, CSR, SSG, and hybrid rendering techniques
 8. **[Form Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/08-Factor-8.md)** - Implementing validation, submission, and user feedback patterns
-9. **[Internationalization & Accessibility](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/09-Factor-9.md)** - Building inclusive, globally accessible applications from day one
+9. **[Internationalization & Localization](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/09-Factor-9.md)** - Building for global audiences from day one
 10. **[Backend-for-Frontend (BFF)](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/10-Factor-10.md)** - Evaluating when and how to implement this architectural pattern
 11. **[API Communication Patterns](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/11-Factor-11.md)** - Selecting appropriate protocols (REST, GraphQL, gRPC, WebSockets, etc.)
-12. **[Performance, Responsiveness & SEO](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md)** - Ensuring applications are fast, responsive across all devices, and discoverable
+12. **[Accessibility, SEO & Performance](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/12-Factor-12.md)** - Ensuring applications are usable, discoverable, and fast
 
 ## Supplemental Factors
 We'll also explore additional factors that complement the core methodology:
 
 1. **[Testing Strategies](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/13-Supplemental-factor-1.md)** - Comprehensive testing approaches across the full stack
-2. **[AI-Enhanced Development Tools](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/14-Supplemental-factor-2.md)** - Leveraging artificial intelligence to improve development workflows
+2. **[Observability & Error Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/16-Supplemental-factor-4.md)** - Comprehensive logging, monitoring, and error handling across the application stack
 3. **[Micro-Frontend Architectures](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/15-Supplemental-factor-3.md)** - Scaling frontend development with modular approaches
-4. **[Observability & Error Management](https://github.com/tikalk/full-Stack-12-factors/blob/main/articles/16-Supplemental-factor-4.md)** - Comprehensive logging, monitoring, and error handling across the application stack
 
 ## Key Improvements in This Methodology
 
