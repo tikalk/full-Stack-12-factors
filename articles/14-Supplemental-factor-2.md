@@ -1,4 +1,4 @@
-# Supplemental Factor 4: Observability & Error Management
+# Supplemental Factor 2: Observability & Error Management
 ![cover](https://github.com/tikalk/full-Stack-12-factors/blob/main/images/factor14.png?raw=true)
 
 ## Comprehensive Monitoring and Error Handling Across the Full Application Stack
