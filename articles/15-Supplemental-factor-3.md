@@ -1,5 +1,5 @@
 # Supplemental Factor 3: Micro-Frontend Architectures
-![cover](https://github.com/tikalk/full-Stack-12-factors/blob/main/images/factor-15.png?raw=true)
+![cover](https://github.com/tikalk/full-Stack-12-factors/blob/main/images/factor15.png?raw=true)
 
 ## Scaling Frontend Development Through Modular Architecture
 
