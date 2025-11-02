@@ -105,6 +105,70 @@ window.addEventListener('unhandledrejection', (event) => {
 });
 ```
 
+#### Error Containment Strategies
+Modern frontend applications require two complementary approaches to error management: error boundaries for UI resilience and API error management for data layer reliability.
+
+**Error Boundaries** catch JavaScript errors in component trees, preventing entire UI crashes:
+```javascript
+// React Error Boundary
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error, errorInfo) {
+    errorTracker.captureException(error, { errorInfo });
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <div>Something went wrong. Please refresh the page.</div>;
+    }
+    return this.props.children;
+  }
+}
+```
+
+**API Error Management** handles network request failures with retry logic and user feedback:
+```javascript
+// API Error Handling with Retry
+async function apiRequest(url, options = {}, maxRetries = 3) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const response = await fetch(url, options);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      if (attempt === maxRetries) {
+        // Show user-friendly error message
+        showErrorToast('Service temporarily unavailable. Please try again.');
+        throw error;
+      }
+      // Exponential backoff: wait 1s, 2s, 4s...
+      await new Promise(resolve => setTimeout(resolve, 1000 * Math.pow(2, attempt - 1)));
+    }
+  }
+}
+```
+
+**Integration Patterns:**
+- Error boundaries prevent UI crashes from rendering errors
+- API error management handles data fetching failures
+- Combine both: wrap data-dependent components in error boundaries
+- Use boundaries for unexpected errors, API handling for expected failures
+- Always provide user feedback and recovery options
+
+**Key Principles:**
+- Error boundaries = UI resilience (catch rendering failures)
+- API error management = Data resilience (handle network failures)
+- Both essential for robust full-stack applications
+- Test error scenarios to ensure graceful degradation
+
 #### User Experience Monitoring
 ```javascript
 // Core Web Vitals tracking
