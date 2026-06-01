@@ -282,8 +282,8 @@ Common query optimization patterns:
 ```
 User ──> Upload file ──> App Server ──> S3 (origin)
                            │
-                           └──> DB: store object key
-                        
+                            └──> DB: store object key
+
 User ──> GET /files/abc.jpg
            │
            ▼
