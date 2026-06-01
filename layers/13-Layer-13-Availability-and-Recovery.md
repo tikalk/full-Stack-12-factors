@@ -84,7 +84,7 @@ public class PaymentService {
     private final PaymentGatewayClient paymentGateway;
     private final PaymentRepository paymentRepository;
 
-    public PaymentService(PaymentGatewayClient paymentGateway, 
+    public PaymentService(PaymentGatewayClient paymentGateway,
                           PaymentRepository paymentRepository) {
         this.paymentGateway = paymentGateway;
         this.paymentRepository = paymentRepository;
@@ -122,7 +122,7 @@ public class PaymentService {
 
         // Return a degraded response — try again later
         paymentRepository.save(PaymentEvent.failed(request, ex.getMessage()));
-        return PaymentResult.degraded(request.getOrderId(), 
+        return PaymentResult.degraded(request.getOrderId(),
                                       "Payment service temporarily unavailable. " +
                                       "Please retry in a few minutes.");
     }
